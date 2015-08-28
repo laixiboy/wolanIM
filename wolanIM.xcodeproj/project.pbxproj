@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E66C8A50D5B48CA02A671CA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C4F5B30ACD4782672EF696 /* libPods.a */; };
 		611FECE41B8C4BD7009BC2A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611FECE31B8C4BD7009BC2A1 /* Foundation.framework */; };
 		611FECE61B8C4BD7009BC2A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611FECE51B8C4BD7009BC2A1 /* CoreGraphics.framework */; };
 		611FECE81B8C4BD7009BC2A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611FECE71B8C4BD7009BC2A1 /* UIKit.framework */; };
@@ -22,6 +23,8 @@
 		611FED081B8C4BD8009BC2A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611FECE71B8C4BD7009BC2A1 /* UIKit.framework */; };
 		611FED101B8C4BD8009BC2A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 611FED0E1B8C4BD8009BC2A1 /* InfoPlist.strings */; };
 		611FED121B8C4BD8009BC2A1 /* wolanIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611FED111B8C4BD8009BC2A1 /* wolanIMTests.m */; };
+		61BF678C1B8EF5E50061BEF2 /* MyAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF678B1B8EF5E50061BEF2 /* MyAsyncSocket.m */; };
+		61BF67931B902BEB0061BEF2 /* wolanLoginViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF67921B902BEB0061BEF2 /* wolanLoginViewContorller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28C4F5B30ACD4782672EF696 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4263CF9AFDAD8442BB137005 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		611FECE01B8C4BD7009BC2A1 /* wolanIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wolanIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		611FECE31B8C4BD7009BC2A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		611FECE51B8C4BD7009BC2A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +61,12 @@
 		611FED0D1B8C4BD8009BC2A1 /* wolanIMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wolanIMTests-Info.plist"; sourceTree = "<group>"; };
 		611FED0F1B8C4BD8009BC2A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		611FED111B8C4BD8009BC2A1 /* wolanIMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wolanIMTests.m; sourceTree = "<group>"; };
+		61BF678A1B8EF5E50061BEF2 /* MyAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncSocket.h; sourceTree = "<group>"; };
+		61BF678B1B8EF5E50061BEF2 /* MyAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAsyncSocket.m; sourceTree = "<group>"; };
+		61BF678D1B8FFA1E0061BEF2 /* MyAsyncSocketConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncSocketConfig.h; sourceTree = "<group>"; };
+		61BF67911B902BEB0061BEF2 /* wolanLoginViewContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanLoginViewContorller.h; sourceTree = "<group>"; };
+		61BF67921B902BEB0061BEF2 /* wolanLoginViewContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanLoginViewContorller.m; sourceTree = "<group>"; };
+		962D68C150AFAD56621B3091 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +77,7 @@
 				611FECE61B8C4BD7009BC2A1 /* CoreGraphics.framework in Frameworks */,
 				611FECE81B8C4BD7009BC2A1 /* UIKit.framework in Frameworks */,
 				611FECE41B8C4BD7009BC2A1 /* Foundation.framework in Frameworks */,
+				3E66C8A50D5B48CA02A671CA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0057BA11A93468411482453D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				962D68C150AFAD56621B3091 /* Pods.debug.xcconfig */,
+				4263CF9AFDAD8442BB137005 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		611FECD71B8C4BD7009BC2A1 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +110,7 @@
 				611FED0B1B8C4BD8009BC2A1 /* wolanIMTests */,
 				611FECE21B8C4BD7009BC2A1 /* Frameworks */,
 				611FECE11B8C4BD7009BC2A1 /* Products */,
+				0057BA11A93468411482453D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +130,7 @@
 				611FECE51B8C4BD7009BC2A1 /* CoreGraphics.framework */,
 				611FECE71B8C4BD7009BC2A1 /* UIKit.framework */,
 				611FED051B8C4BD8009BC2A1 /* XCTest.framework */,
+				28C4F5B30ACD4782672EF696 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +138,7 @@
 		611FECE91B8C4BD7009BC2A1 /* wolanIM */ = {
 			isa = PBXGroup;
 			children = (
+				61BF67891B8EF5B70061BEF2 /* Communication */,
 				611FECF21B8C4BD7009BC2A1 /* wolanAppDelegate.h */,
 				611FECF31B8C4BD7009BC2A1 /* wolanAppDelegate.m */,
 				611FECF51B8C4BD8009BC2A1 /* Main.storyboard */,
@@ -124,6 +148,8 @@
 				611FECFC1B8C4BD8009BC2A1 /* wolanSecondViewController.m */,
 				611FECFE1B8C4BD8009BC2A1 /* Images.xcassets */,
 				611FECEA1B8C4BD7009BC2A1 /* Supporting Files */,
+				61BF67911B902BEB0061BEF2 /* wolanLoginViewContorller.h */,
+				61BF67921B902BEB0061BEF2 /* wolanLoginViewContorller.m */,
 			);
 			path = wolanIM;
 			sourceTree = "<group>";
@@ -157,6 +183,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		61BF67891B8EF5B70061BEF2 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				61BF678A1B8EF5E50061BEF2 /* MyAsyncSocket.h */,
+				61BF678B1B8EF5E50061BEF2 /* MyAsyncSocket.m */,
+				61BF678D1B8FFA1E0061BEF2 /* MyAsyncSocketConfig.h */,
+			);
+			name = Communication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 611FED151B8C4BD8009BC2A1 /* Build configuration list for PBXNativeTarget "wolanIM" */;
 			buildPhases = (
+				D41908BD0909E7D94EEC1391 /* Check Pods Manifest.lock */,
 				611FECDC1B8C4BD7009BC2A1 /* Sources */,
 				611FECDD1B8C4BD7009BC2A1 /* Frameworks */,
 				611FECDE1B8C4BD7009BC2A1 /* Resources */,
+				8CE9853C73C50B9CF70C1B52 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,14 +288,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CE9853C73C50B9CF70C1B52 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41908BD0909E7D94EEC1391 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		611FECDC1B8C4BD7009BC2A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				611FECFA1B8C4BD8009BC2A1 /* wolanFirstViewController.m in Sources */,
+				61BF678C1B8EF5E50061BEF2 /* MyAsyncSocket.m in Sources */,
 				611FECF41B8C4BD7009BC2A1 /* wolanAppDelegate.m in Sources */,
 				611FECFD1B8C4BD8009BC2A1 /* wolanSecondViewController.m in Sources */,
+				61BF67931B902BEB0061BEF2 /* wolanLoginViewContorller.m in Sources */,
 				611FECF01B8C4BD7009BC2A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +453,7 @@
 		};
 		611FED161B8C4BD8009BC2A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962D68C150AFAD56621B3091 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -393,6 +467,7 @@
 		};
 		611FED171B8C4BD8009BC2A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4263CF9AFDAD8442BB137005 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -463,6 +538,7 @@
 				611FED171B8C4BD8009BC2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		611FED181B8C4BD8009BC2A1 /* Build configuration list for PBXNativeTarget "wolanIMTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +547,7 @@
 				611FED1A1B8C4BD8009BC2A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
