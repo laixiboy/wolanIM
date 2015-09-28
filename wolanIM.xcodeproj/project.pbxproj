@@ -27,7 +27,7 @@
 		7E0FE5EF1BAABEB500FDC653 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0FE5EC1BAABEB500FDC653 /* message.png */; };
 		7E0FE5F01BAABEB500FDC653 /* my.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0FE5ED1BAABEB500FDC653 /* my.png */; };
 		7E0FE5F31BABB7B400FDC653 /* wolanHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0FE5F21BABB7B400FDC653 /* wolanHomeViewController.m */; };
-		7E0FE5FB1BABF3F500FDC653 /* wolanMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0FE5FA1BABF3F500FDC653 /* wolanMessage.m */; };
+		7E0FE5FB1BABF3F500FDC653 /* wolanMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0FE5FA1BABF3F500FDC653 /* wolanMsgViewController.m */; };
 		7E0FE5FE1BABF40300FDC653 /* wolanMy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0FE5FD1BABF40300FDC653 /* wolanMy.m */; };
 		7E31238C1BB8E65500C91C29 /* pic_plank_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E31238A1BB8E65500C91C29 /* pic_plank_down.png */; };
 		7E31238D1BB8E65500C91C29 /* pic_plank_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E31238B1BB8E65500C91C29 /* pic_plank_down@2x.png */; };
@@ -44,6 +44,10 @@
 		7E3123A81BB9253B00C91C29 /* all.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123A51BB9253B00C91C29 /* all.png */; };
 		7E3123A91BB9253B00C91C29 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123A61BB9253B00C91C29 /* man.png */; };
 		7E3123AA1BB9253B00C91C29 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123A71BB9253B00C91C29 /* woman.png */; };
+		7E3123AF1BB93E5300C91C29 /* draft.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123AB1BB93E5300C91C29 /* draft.png */; };
+		7E3123B01BB93E5300C91C29 /* receive.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123AC1BB93E5300C91C29 /* receive.png */; };
+		7E3123B11BB93E5300C91C29 /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123AD1BB93E5300C91C29 /* send.png */; };
+		7E3123B21BB93E5300C91C29 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123AE1BB93E5300C91C29 /* woman.png */; };
 		7EC3E8091BAFE19800D9B213 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E8081BAFE19800D9B213 /* ReadMe */; };
 		7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80A1BAFE3CA00D9B213 /* city.plist */; };
 		7EC3E80D1BAFE3D600D9B213 /* hotcity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80C1BAFE3D600D9B213 /* hotcity.plist */; };
@@ -100,8 +104,8 @@
 		7E0FE5ED1BAABEB500FDC653 /* my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my.png; sourceTree = "<group>"; };
 		7E0FE5F11BABB7B400FDC653 /* wolanHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanHomeViewController.h; sourceTree = "<group>"; };
 		7E0FE5F21BABB7B400FDC653 /* wolanHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanHomeViewController.m; sourceTree = "<group>"; };
-		7E0FE5F91BABF3F500FDC653 /* wolanMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanMessage.h; sourceTree = "<group>"; };
-		7E0FE5FA1BABF3F500FDC653 /* wolanMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanMessage.m; sourceTree = "<group>"; };
+		7E0FE5F91BABF3F500FDC653 /* wolanMsgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanMsgViewController.h; sourceTree = "<group>"; };
+		7E0FE5FA1BABF3F500FDC653 /* wolanMsgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanMsgViewController.m; sourceTree = "<group>"; };
 		7E0FE5FC1BABF40300FDC653 /* wolanMy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanMy.h; sourceTree = "<group>"; };
 		7E0FE5FD1BABF40300FDC653 /* wolanMy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanMy.m; sourceTree = "<group>"; };
 		7E31238A1BB8E65500C91C29 /* pic_plank_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_plank_down.png; sourceTree = "<group>"; };
@@ -121,6 +125,10 @@
 		7E3123A51BB9253B00C91C29 /* all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all.png; sourceTree = "<group>"; };
 		7E3123A61BB9253B00C91C29 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
 		7E3123A71BB9253B00C91C29 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woman.png; sourceTree = "<group>"; };
+		7E3123AB1BB93E5300C91C29 /* draft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draft.png; sourceTree = "<group>"; };
+		7E3123AC1BB93E5300C91C29 /* receive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receive.png; sourceTree = "<group>"; };
+		7E3123AD1BB93E5300C91C29 /* send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send.png; sourceTree = "<group>"; };
+		7E3123AE1BB93E5300C91C29 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woman.png; sourceTree = "<group>"; };
 		7EC3E8061BAFDD1700D9B213 /* wolanDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolanDataModel.h; sourceTree = "<group>"; };
 		7EC3E8081BAFE19800D9B213 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		7EC3E80A1BAFE3CA00D9B213 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
@@ -298,6 +306,10 @@
 		61AF792A1B96CEE900971BFD /* image */ = {
 			isa = PBXGroup;
 			children = (
+				7E3123AB1BB93E5300C91C29 /* draft.png */,
+				7E3123AC1BB93E5300C91C29 /* receive.png */,
+				7E3123AD1BB93E5300C91C29 /* send.png */,
+				7E3123AE1BB93E5300C91C29 /* woman.png */,
 				7E3123A51BB9253B00C91C29 /* all.png */,
 				7E3123A61BB9253B00C91C29 /* man.png */,
 				7E3123A71BB9253B00C91C29 /* woman.png */,
@@ -365,8 +377,8 @@
 		7EC3E7FF1BAFAA0200D9B213 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				7E0FE5F91BABF3F500FDC653 /* wolanMessage.h */,
-				7E0FE5FA1BABF3F500FDC653 /* wolanMessage.m */,
+				7E0FE5F91BABF3F500FDC653 /* wolanMsgViewController.h */,
+				7E0FE5FA1BABF3F500FDC653 /* wolanMsgViewController.m */,
 			);
 			name = Message;
 			sourceTree = "<group>";
@@ -509,9 +521,12 @@
 				7E3123911BB8E6AE00C91C29 /* pic_plank_among@2x.png in Resources */,
 				7E3123AA1BB9253B00C91C29 /* woman.png in Resources */,
 				7E0FE5EE1BAABEB500FDC653 /* home.png in Resources */,
+				7E3123B11BB93E5300C91C29 /* send.png in Resources */,
 				7E31239B1BB8E79D00C91C29 /* pic_icon_fresh@2x.png in Resources */,
+				7E3123B01BB93E5300C91C29 /* receive.png in Resources */,
 				7E0FE5EF1BAABEB500FDC653 /* message.png in Resources */,
 				7E3123A91BB9253B00C91C29 /* man.png in Resources */,
+				7E3123B21BB93E5300C91C29 /* woman.png in Resources */,
 				7E31238D1BB8E65500C91C29 /* pic_plank_down@2x.png in Resources */,
 				7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */,
 				7E31239D1BB8E79D00C91C29 /* pic_plank_up@2x.png in Resources */,
@@ -529,6 +544,7 @@
 				7E31239A1BB8E79D00C91C29 /* pic_icon_fresh.png in Resources */,
 				7EDF2EEB1BB535E4002C0E30 /* drop_down_renovate@2x.png in Resources */,
 				611FECF71B8C4BD8009BC2A1 /* Main.storyboard in Resources */,
+				7E3123AF1BB93E5300C91C29 /* draft.png in Resources */,
 				7EDF2EDD1BB51CDB002C0E30 /* homeCell.xib in Resources */,
 				7E3123991BB8E79D00C91C29 /* pic_fresh_n@2x 2.png in Resources */,
 				7EDF2EEF1BB53E87002C0E30 /* pic_fresh_n@2x.png in Resources */,
@@ -585,7 +601,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E3123A41BB91F9300C91C29 /* UIView+DOPExtension.m in Sources */,
-				7E0FE5FB1BABF3F500FDC653 /* wolanMessage.m in Sources */,
+				7E0FE5FB1BABF3F500FDC653 /* wolanMsgViewController.m in Sources */,
 				7E0FE5F31BABB7B400FDC653 /* wolanHomeViewController.m in Sources */,
 				7E3123A11BB91EBB00C91C29 /* DOPNavbarMenu.m in Sources */,
 				61BF678C1B8EF5E50061BEF2 /* MyAsyncSocket.m in Sources */,
