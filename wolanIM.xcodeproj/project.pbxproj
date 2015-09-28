@@ -39,6 +39,11 @@
 		7E31239B1BB8E79D00C91C29 /* pic_icon_fresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123951BB8E79D00C91C29 /* pic_icon_fresh@2x.png */; };
 		7E31239C1BB8E79D00C91C29 /* pic_plank_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123961BB8E79D00C91C29 /* pic_plank_up.png */; };
 		7E31239D1BB8E79D00C91C29 /* pic_plank_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123971BB8E79D00C91C29 /* pic_plank_up@2x.png */; };
+		7E3123A11BB91EBB00C91C29 /* DOPNavbarMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3123A01BB91EBB00C91C29 /* DOPNavbarMenu.m */; };
+		7E3123A41BB91F9300C91C29 /* UIView+DOPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3123A31BB91F9300C91C29 /* UIView+DOPExtension.m */; };
+		7E3123A81BB9253B00C91C29 /* all.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123A51BB9253B00C91C29 /* all.png */; };
+		7E3123A91BB9253B00C91C29 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123A61BB9253B00C91C29 /* man.png */; };
+		7E3123AA1BB9253B00C91C29 /* woman.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123A71BB9253B00C91C29 /* woman.png */; };
 		7EC3E8091BAFE19800D9B213 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E8081BAFE19800D9B213 /* ReadMe */; };
 		7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80A1BAFE3CA00D9B213 /* city.plist */; };
 		7EC3E80D1BAFE3D600D9B213 /* hotcity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80C1BAFE3D600D9B213 /* hotcity.plist */; };
@@ -53,7 +58,6 @@
 		7EDF2EEB1BB535E4002C0E30 /* drop_down_renovate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF2EE91BB535E4002C0E30 /* drop_down_renovate@2x.png */; };
 		7EDF2EEE1BB53E87002C0E30 /* pic_fresh_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF2EEC1BB53E87002C0E30 /* pic_fresh_n.png */; };
 		7EDF2EEF1BB53E87002C0E30 /* pic_fresh_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDF2EED1BB53E87002C0E30 /* pic_fresh_n@2x.png */; };
-		7EDF2EF51BB55EF0002C0E30 /* wolanHomeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDF2EF41BB55EF0002C0E30 /* wolanHomeMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +114,13 @@
 		7E3123951BB8E79D00C91C29 /* pic_icon_fresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_icon_fresh@2x.png"; sourceTree = "<group>"; };
 		7E3123961BB8E79D00C91C29 /* pic_plank_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_plank_up.png; sourceTree = "<group>"; };
 		7E3123971BB8E79D00C91C29 /* pic_plank_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_plank_up@2x.png"; sourceTree = "<group>"; };
+		7E31239F1BB91EBB00C91C29 /* DOPNavbarMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOPNavbarMenu.h; sourceTree = "<group>"; };
+		7E3123A01BB91EBB00C91C29 /* DOPNavbarMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOPNavbarMenu.m; sourceTree = "<group>"; };
+		7E3123A21BB91F9300C91C29 /* UIView+DOPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DOPExtension.h"; sourceTree = "<group>"; };
+		7E3123A31BB91F9300C91C29 /* UIView+DOPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DOPExtension.m"; sourceTree = "<group>"; };
+		7E3123A51BB9253B00C91C29 /* all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all.png; sourceTree = "<group>"; };
+		7E3123A61BB9253B00C91C29 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		7E3123A71BB9253B00C91C29 /* woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woman.png; sourceTree = "<group>"; };
 		7EC3E8061BAFDD1700D9B213 /* wolanDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolanDataModel.h; sourceTree = "<group>"; };
 		7EC3E8081BAFE19800D9B213 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		7EC3E80A1BAFE3CA00D9B213 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
@@ -127,8 +138,6 @@
 		7EDF2EE91BB535E4002C0E30 /* drop_down_renovate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drop_down_renovate@2x.png"; sourceTree = "<group>"; };
 		7EDF2EEC1BB53E87002C0E30 /* pic_fresh_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_fresh_n.png; sourceTree = "<group>"; };
 		7EDF2EED1BB53E87002C0E30 /* pic_fresh_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_fresh_n@2x.png"; sourceTree = "<group>"; };
-		7EDF2EF31BB55EF0002C0E30 /* wolanHomeMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanHomeMainViewController.h; sourceTree = "<group>"; };
-		7EDF2EF41BB55EF0002C0E30 /* wolanHomeMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanHomeMainViewController.m; sourceTree = "<group>"; };
 		962D68C150AFAD56621B3091 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +210,7 @@
 		6105D7F11B959B120068307D /* ViewControl */ = {
 			isa = PBXGroup;
 			children = (
+				7E31239E1BB91EA300C91C29 /* Public */,
 				7EDF2EF21BB55E5F002C0E30 /* Main */,
 				7EC3E8011BAFAA1E00D9B213 /* Login */,
 				7EC3E8001BAFAA1100D9B213 /* My */,
@@ -288,6 +298,9 @@
 		61AF792A1B96CEE900971BFD /* image */ = {
 			isa = PBXGroup;
 			children = (
+				7E3123A51BB9253B00C91C29 /* all.png */,
+				7E3123A61BB9253B00C91C29 /* man.png */,
+				7E3123A71BB9253B00C91C29 /* woman.png */,
 				7E3123921BB8E79D00C91C29 /* pic_fresh_n 2.png */,
 				7E3123931BB8E79D00C91C29 /* pic_fresh_n@2x 2.png */,
 				7E3123941BB8E79D00C91C29 /* pic_icon_fresh.png */,
@@ -336,6 +349,17 @@
 				7EDF2EDC1BB51CDB002C0E30 /* homeCell.xib */,
 			);
 			name = Home;
+			sourceTree = "<group>";
+		};
+		7E31239E1BB91EA300C91C29 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				7E3123A21BB91F9300C91C29 /* UIView+DOPExtension.h */,
+				7E3123A31BB91F9300C91C29 /* UIView+DOPExtension.m */,
+				7E31239F1BB91EBB00C91C29 /* DOPNavbarMenu.h */,
+				7E3123A01BB91EBB00C91C29 /* DOPNavbarMenu.m */,
+			);
+			name = Public;
 			sourceTree = "<group>";
 		};
 		7EC3E7FF1BAFAA0200D9B213 /* Message */ = {
@@ -397,8 +421,6 @@
 		7EDF2EF21BB55E5F002C0E30 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				7EDF2EF31BB55EF0002C0E30 /* wolanHomeMainViewController.h */,
-				7EDF2EF41BB55EF0002C0E30 /* wolanHomeMainViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -485,12 +507,15 @@
 				7E0FE5F01BAABEB500FDC653 /* my.png in Resources */,
 				7EDF2EE61BB52A6F002C0E30 /* pic_background.png in Resources */,
 				7E3123911BB8E6AE00C91C29 /* pic_plank_among@2x.png in Resources */,
+				7E3123AA1BB9253B00C91C29 /* woman.png in Resources */,
 				7E0FE5EE1BAABEB500FDC653 /* home.png in Resources */,
 				7E31239B1BB8E79D00C91C29 /* pic_icon_fresh@2x.png in Resources */,
 				7E0FE5EF1BAABEB500FDC653 /* message.png in Resources */,
+				7E3123A91BB9253B00C91C29 /* man.png in Resources */,
 				7E31238D1BB8E65500C91C29 /* pic_plank_down@2x.png in Resources */,
 				7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */,
 				7E31239D1BB8E79D00C91C29 /* pic_plank_up@2x.png in Resources */,
+				7E3123A81BB9253B00C91C29 /* all.png in Resources */,
 				7EDF2EEA1BB535E4002C0E30 /* drop_down_renovate.png in Resources */,
 				7EDF2EEE1BB53E87002C0E30 /* pic_fresh_n.png in Resources */,
 				611FECFF1B8C4BD8009BC2A1 /* Images.xcassets in Resources */,
@@ -559,12 +584,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3123A41BB91F9300C91C29 /* UIView+DOPExtension.m in Sources */,
 				7E0FE5FB1BABF3F500FDC653 /* wolanMessage.m in Sources */,
 				7E0FE5F31BABB7B400FDC653 /* wolanHomeViewController.m in Sources */,
+				7E3123A11BB91EBB00C91C29 /* DOPNavbarMenu.m in Sources */,
 				61BF678C1B8EF5E50061BEF2 /* MyAsyncSocket.m in Sources */,
 				7E0FE5FE1BABF40300FDC653 /* wolanMy.m in Sources */,
 				7EDF2EE31BB525AE002C0E30 /* TTUITableViewZoomController.m in Sources */,
-				7EDF2EF51BB55EF0002C0E30 /* wolanHomeMainViewController.m in Sources */,
 				7EC3E80F1BB1229900D9B213 /* wolanDataModel.m in Sources */,
 				611FECF41B8C4BD7009BC2A1 /* wolanAppDelegate.m in Sources */,
 				61BF67931B902BEB0061BEF2 /* wolanLogin.m in Sources */,
