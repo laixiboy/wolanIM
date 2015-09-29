@@ -51,6 +51,7 @@
 		7E3123B41BB9426B00C91C29 /* msgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123B31BB9426B00C91C29 /* msgCell.xib */; };
 		7E3123B91BB9439C00C91C29 /* wolanDataModel_Msg.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3123B81BB9439C00C91C29 /* wolanDataModel_Msg.m */; };
 		7E3123BB1BB94A3300C91C29 /* pic_plank_down_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123BA1BB94A3300C91C29 /* pic_plank_down_line.png */; };
+		7E3123BD1BBA580D00C91C29 /* msgDetailCell_Rec.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123BC1BBA580D00C91C29 /* msgDetailCell_Rec.xib */; };
 		7EC3E8091BAFE19800D9B213 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E8081BAFE19800D9B213 /* ReadMe */; };
 		7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80A1BAFE3CA00D9B213 /* city.plist */; };
 		7EC3E80D1BAFE3D600D9B213 /* hotcity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80C1BAFE3D600D9B213 /* hotcity.plist */; };
@@ -136,6 +137,7 @@
 		7E3123B71BB9439C00C91C29 /* wolanDataModel_Msg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanDataModel_Msg.h; sourceTree = "<group>"; };
 		7E3123B81BB9439C00C91C29 /* wolanDataModel_Msg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanDataModel_Msg.m; sourceTree = "<group>"; };
 		7E3123BA1BB94A3300C91C29 /* pic_plank_down_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_plank_down_line.png; sourceTree = "<group>"; };
+		7E3123BC1BBA580D00C91C29 /* msgDetailCell_Rec.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = msgDetailCell_Rec.xib; sourceTree = "<group>"; };
 		7EC3E8061BAFDD1700D9B213 /* wolanDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolanDataModel.h; sourceTree = "<group>"; };
 		7EC3E8081BAFE19800D9B213 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		7EC3E80A1BAFE3CA00D9B213 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
@@ -387,6 +389,7 @@
 			isa = PBXGroup;
 			children = (
 				7E3123B31BB9426B00C91C29 /* msgCell.xib */,
+				7E3123BC1BBA580D00C91C29 /* msgDetailCell_Rec.xib */,
 			);
 			name = Message;
 			sourceTree = "<group>";
@@ -563,6 +566,7 @@
 				7EDF2EEE1BB53E87002C0E30 /* pic_fresh_n.png in Resources */,
 				611FECFF1B8C4BD8009BC2A1 /* Images.xcassets in Resources */,
 				7EC3E8091BAFE19800D9B213 /* ReadMe in Resources */,
+				7E3123BD1BBA580D00C91C29 /* msgDetailCell_Rec.xib in Resources */,
 				7E31239C1BB8E79D00C91C29 /* pic_plank_up.png in Resources */,
 				611FECEE1B8C4BD7009BC2A1 /* InfoPlist.strings in Resources */,
 				7E3123981BB8E79D00C91C29 /* pic_fresh_n 2.png in Resources */,
