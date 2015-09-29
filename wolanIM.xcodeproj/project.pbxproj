@@ -52,6 +52,10 @@
 		7E3123B91BB9439C00C91C29 /* wolanDataModel_Msg.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3123B81BB9439C00C91C29 /* wolanDataModel_Msg.m */; };
 		7E3123BB1BB94A3300C91C29 /* pic_plank_down_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123BA1BB94A3300C91C29 /* pic_plank_down_line.png */; };
 		7E3123BD1BBA580D00C91C29 /* msgDetailCell_Rec.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123BC1BBA580D00C91C29 /* msgDetailCell_Rec.xib */; };
+		7E3123BF1BBA5EF200C91C29 /* msgDetailCell_Snd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123BE1BBA5EF200C91C29 /* msgDetailCell_Snd.xib */; };
+		7E3123C21BBA606300C91C29 /* wolanMsgDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3123C11BBA606300C91C29 /* wolanMsgDetailViewController.m */; };
+		7E3123C71BBA61E000C91C29 /* wolanDataModel_Msg_Rec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3123C31BBA61E000C91C29 /* wolanDataModel_Msg_Rec.m */; };
+		7E3123C81BBA61E000C91C29 /* wolanDataModel_Msg_Snd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3123C61BBA61E000C91C29 /* wolanDataModel_Msg_Snd.m */; };
 		7EC3E8091BAFE19800D9B213 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E8081BAFE19800D9B213 /* ReadMe */; };
 		7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80A1BAFE3CA00D9B213 /* city.plist */; };
 		7EC3E80D1BAFE3D600D9B213 /* hotcity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80C1BAFE3D600D9B213 /* hotcity.plist */; };
@@ -138,6 +142,13 @@
 		7E3123B81BB9439C00C91C29 /* wolanDataModel_Msg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanDataModel_Msg.m; sourceTree = "<group>"; };
 		7E3123BA1BB94A3300C91C29 /* pic_plank_down_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_plank_down_line.png; sourceTree = "<group>"; };
 		7E3123BC1BBA580D00C91C29 /* msgDetailCell_Rec.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = msgDetailCell_Rec.xib; sourceTree = "<group>"; };
+		7E3123BE1BBA5EF200C91C29 /* msgDetailCell_Snd.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = msgDetailCell_Snd.xib; sourceTree = "<group>"; };
+		7E3123C01BBA606300C91C29 /* wolanMsgDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanMsgDetailViewController.h; sourceTree = "<group>"; };
+		7E3123C11BBA606300C91C29 /* wolanMsgDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanMsgDetailViewController.m; sourceTree = "<group>"; };
+		7E3123C31BBA61E000C91C29 /* wolanDataModel_Msg_Rec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanDataModel_Msg_Rec.m; sourceTree = "<group>"; };
+		7E3123C41BBA61E000C91C29 /* wolanDataModel_Msg_Rec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanDataModel_Msg_Rec.h; sourceTree = "<group>"; };
+		7E3123C51BBA61E000C91C29 /* wolanDataModel_Msg_Snd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanDataModel_Msg_Snd.h; sourceTree = "<group>"; };
+		7E3123C61BBA61E000C91C29 /* wolanDataModel_Msg_Snd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanDataModel_Msg_Snd.m; sourceTree = "<group>"; };
 		7EC3E8061BAFDD1700D9B213 /* wolanDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolanDataModel.h; sourceTree = "<group>"; };
 		7EC3E8081BAFE19800D9B213 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		7EC3E80A1BAFE3CA00D9B213 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
@@ -388,6 +399,7 @@
 		7E3123B51BB9428200C91C29 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				7E3123BE1BBA5EF200C91C29 /* msgDetailCell_Snd.xib */,
 				7E3123B31BB9426B00C91C29 /* msgCell.xib */,
 				7E3123BC1BBA580D00C91C29 /* msgDetailCell_Rec.xib */,
 			);
@@ -397,6 +409,10 @@
 		7E3123B61BB9435400C91C29 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				7E3123C31BBA61E000C91C29 /* wolanDataModel_Msg_Rec.m */,
+				7E3123C41BBA61E000C91C29 /* wolanDataModel_Msg_Rec.h */,
+				7E3123C51BBA61E000C91C29 /* wolanDataModel_Msg_Snd.h */,
+				7E3123C61BBA61E000C91C29 /* wolanDataModel_Msg_Snd.m */,
 				7E3123B71BB9439C00C91C29 /* wolanDataModel_Msg.h */,
 				7E3123B81BB9439C00C91C29 /* wolanDataModel_Msg.m */,
 			);
@@ -406,6 +422,8 @@
 		7EC3E7FF1BAFAA0200D9B213 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				7E3123C01BBA606300C91C29 /* wolanMsgDetailViewController.h */,
+				7E3123C11BBA606300C91C29 /* wolanMsgDetailViewController.m */,
 				7E0FE5F91BABF3F500FDC653 /* wolanMsgViewController.h */,
 				7E0FE5FA1BABF3F500FDC653 /* wolanMsgViewController.m */,
 			);
@@ -560,6 +578,7 @@
 				7E3123B21BB93E5300C91C29 /* woman.png in Resources */,
 				7E31238D1BB8E65500C91C29 /* pic_plank_down@2x.png in Resources */,
 				7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */,
+				7E3123BF1BBA5EF200C91C29 /* msgDetailCell_Snd.xib in Resources */,
 				7E31239D1BB8E79D00C91C29 /* pic_plank_up@2x.png in Resources */,
 				7E3123A81BB9253B00C91C29 /* all.png in Resources */,
 				7EDF2EEA1BB535E4002C0E30 /* drop_down_renovate.png in Resources */,
@@ -636,15 +655,18 @@
 				7E3123A41BB91F9300C91C29 /* UIView+DOPExtension.m in Sources */,
 				7E0FE5FB1BABF3F500FDC653 /* wolanMsgViewController.m in Sources */,
 				7E0FE5F31BABB7B400FDC653 /* wolanHomeViewController.m in Sources */,
+				7E3123C21BBA606300C91C29 /* wolanMsgDetailViewController.m in Sources */,
 				7E3123A11BB91EBB00C91C29 /* DOPNavbarMenu.m in Sources */,
 				61BF678C1B8EF5E50061BEF2 /* MyAsyncSocket.m in Sources */,
 				7E0FE5FE1BABF40300FDC653 /* wolanMy.m in Sources */,
 				7E3123B91BB9439C00C91C29 /* wolanDataModel_Msg.m in Sources */,
 				7EDF2EE31BB525AE002C0E30 /* TTUITableViewZoomController.m in Sources */,
+				7E3123C81BBA61E000C91C29 /* wolanDataModel_Msg_Snd.m in Sources */,
 				7EC3E80F1BB1229900D9B213 /* wolanDataModel.m in Sources */,
 				611FECF41B8C4BD7009BC2A1 /* wolanAppDelegate.m in Sources */,
 				61BF67931B902BEB0061BEF2 /* wolanLogin.m in Sources */,
 				7EDF2EE01BB52332002C0E30 /* PullingRefreshTableView.m in Sources */,
+				7E3123C71BBA61E000C91C29 /* wolanDataModel_Msg_Rec.m in Sources */,
 				611FECF01B8C4BD7009BC2A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
