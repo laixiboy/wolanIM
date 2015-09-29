@@ -14,3 +14,13 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#ifdef WOLAN_DBG
+#define LOG(format,...) NSLog(format,__VAR_ARGS__)
+#else
+#define LOG(format,...)
+#endif
+
+#ifndef WOLAN_DBG
+#define WOLAN_DBG
+#endif

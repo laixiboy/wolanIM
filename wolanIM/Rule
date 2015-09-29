@@ -1,0 +1,6 @@
+
+1.city_id编号规则：aXXYYY
+a:省级行政区类型 1:省 2:自治区 3:直辖市
+XX:省级行政区编号：
+YYY:
+城市数据存放在city.plist中，同时提供热点城市：hotcity.plist

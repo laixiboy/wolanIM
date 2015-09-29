@@ -7,9 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "wolanLogin.h"
+#import "wolanHomeViewController.h"
+#import "wolanMsgViewController.h"
+#import "wolanMy.h"
 
-@interface wolanAppDelegate : UIResponder <UIApplicationDelegate>
+@interface wolanAppDelegate : UIResponder <UIApplicationDelegate,UITabBarControllerDelegate>
+{
+    wolanLogin *loginTableView;
+    wolanHomeViewController *homeTableView;
+    wolanMy *myTableView;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (readonly) BOOL applicationActive;
+
+
+-(void)InitMainTabBarView;
 
 @end

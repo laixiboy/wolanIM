@@ -10,9 +10,22 @@
 
 @implementation wolanAppDelegate
 
+@synthesize window = _window;
+@synthesize applicationActive = _applicationActive;
+
+
+-(void)InitMainTabBarView
+{
+
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    
+    _applicationActive = YES;
+    
     return YES;
 }
 							
