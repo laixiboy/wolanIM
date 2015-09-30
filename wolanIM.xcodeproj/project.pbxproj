@@ -64,6 +64,7 @@
 		7E3123E61BBBB6DC00C91C29 /* Msg_Receive_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123E31BBBB6DC00C91C29 /* Msg_Receive_32.png */; };
 		7E3123E71BBBB6DC00C91C29 /* Msg_Send_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123E41BBBB6DC00C91C29 /* Msg_Send_32.png */; };
 		7E3123EB1BBBBD5700C91C29 /* 20150925112544114.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123EA1BBBBD5700C91C29 /* 20150925112544114.jpg */; };
+		7E3123ED1BBBC22000C91C29 /* pic_plank_sperator.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123EC1BBBC22000C91C29 /* pic_plank_sperator.png */; };
 		7EC3E8091BAFE19800D9B213 /* Rule in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E8081BAFE19800D9B213 /* Rule */; };
 		7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80A1BAFE3CA00D9B213 /* city.plist */; };
 		7EC3E80D1BAFE3D600D9B213 /* hotcity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80C1BAFE3D600D9B213 /* hotcity.plist */; };
@@ -166,6 +167,7 @@
 		7E3123E31BBBB6DC00C91C29 /* Msg_Receive_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Msg_Receive_32.png; sourceTree = "<group>"; };
 		7E3123E41BBBB6DC00C91C29 /* Msg_Send_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Msg_Send_32.png; sourceTree = "<group>"; };
 		7E3123EA1BBBBD5700C91C29 /* 20150925112544114.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20150925112544114.jpg; sourceTree = "<group>"; };
+		7E3123EC1BBBC22000C91C29 /* pic_plank_sperator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_plank_sperator.png; sourceTree = "<group>"; };
 		7EC3E8061BAFDD1700D9B213 /* wolanDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolanDataModel.h; sourceTree = "<group>"; };
 		7EC3E8081BAFE19800D9B213 /* Rule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rule; sourceTree = "<group>"; };
 		7EC3E80A1BAFE3CA00D9B213 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 		61AF792A1B96CEE900971BFD /* image */ = {
 			isa = PBXGroup;
 			children = (
+				7E3123EC1BBBC22000C91C29 /* pic_plank_sperator.png */,
 				7E3123EA1BBBBD5700C91C29 /* 20150925112544114.jpg */,
 				7E3123E31BBBB6DC00C91C29 /* Msg_Receive_32.png */,
 				7E3123E41BBBB6DC00C91C29 /* Msg_Send_32.png */,
@@ -650,6 +653,7 @@
 				7EDF2EEB1BB535E4002C0E30 /* drop_down_renovate@2x.png in Resources */,
 				611FECF71B8C4BD8009BC2A1 /* Main.storyboard in Resources */,
 				7E3123DF1BBBA66800C91C29 /* myInfoComplexCell.xib in Resources */,
+				7E3123ED1BBBC22000C91C29 /* pic_plank_sperator.png in Resources */,
 				7EDF2EDD1BB51CDB002C0E30 /* homeCell.xib in Resources */,
 				7E3123DA1BBB828700C91C29 /* MyInfo_Photo_32.png in Resources */,
 				7E3123991BB8E79D00C91C29 /* pic_fresh_n@2x 2.png in Resources */,
