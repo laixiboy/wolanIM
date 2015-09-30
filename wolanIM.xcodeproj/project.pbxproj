@@ -305,6 +305,7 @@
 		611FECE91B8C4BD7009BC2A1 /* wolanIM */ = {
 			isa = PBXGroup;
 			children = (
+				7E3123EE1BBBC95800C91C29 /* Public */,
 				7E3123CD1BBA979800C91C29 /* Service */,
 				7EC3E8071BAFE18300D9B213 /* Document */,
 				7EC3E8021BAFDC0300D9B213 /* DataModel */,
@@ -469,6 +470,13 @@
 				7E3123D21BBB7ED900C91C29 /* wolanDataModel_MyInfo.m */,
 			);
 			name = MyInfo;
+			sourceTree = "<group>";
+		};
+		7E3123EE1BBBC95800C91C29 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Public;
 			sourceTree = "<group>";
 		};
 		7EC3E7FF1BAFAA0200D9B213 /* Message */ = {
