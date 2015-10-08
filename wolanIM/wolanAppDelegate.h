@@ -10,13 +10,13 @@
 #import "wolanLogin.h"
 #import "wolanHomeViewController.h"
 #import "wolanMsgViewController.h"
-#import "wolanMy.h"
+#import "wolanMyInfoViewController.h"
 
 @interface wolanAppDelegate : UIResponder <UIApplicationDelegate,UITabBarControllerDelegate>
 {
     wolanLogin *loginTableView;
     wolanHomeViewController *homeTableView;
-    wolanMy *myTableView;
+    wolanMyInfoViewController *myTableView;
 }
 
 @property (strong, nonatomic) UIWindow *window;

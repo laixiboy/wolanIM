@@ -34,19 +34,19 @@
     wolanDataModel_Msg* cell1 = [[wolanDataModel_Msg alloc]init];
     cell1.id = 1;
     cell1.value = 12;
-    cell1.image = @"receive";
+    cell1.image = @"Msg_Receive_32";
     cell1.title = @"收件箱";
     
     wolanDataModel_Msg* cell2 = [[wolanDataModel_Msg alloc]init];
     cell2.id = 2;
     cell2.value = 3;
-    cell2.image = @"send";
+    cell2.image = @"Msg_Send_32";
     cell2.title = @"发件箱";
     
     wolanDataModel_Msg* cell3 = [[wolanDataModel_Msg alloc]init];
     cell3.id = 3;
     cell3.value = 0;
-    cell3.image = @"draft";
+    cell3.image = @"MyInfo_Answer_32";
     cell3.title = @"草稿箱";
     
     cellDataArray = [[NSArray alloc] initWithObjects:cell1,cell2,cell3, nil];
@@ -73,7 +73,7 @@
 //TODO:要改成根据实际内容进行计算，确定高度
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 78;
+    return 58;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
@@ -90,25 +90,25 @@
 {
     //TODO:临时用tag存储消息数量，后期有更好的方案，则进行优化
     cell.tag = datasource.value;
-    UIImageView* image = (UIImageView*)[cell viewWithTag:10000 ];
-    if(image)
+    UIImageView* background = (UIImageView*)[cell viewWithTag:10000 ];
+    if(background)
     {
         //TODO:参数都是手动调节，有更优化的方案时一定进行优化
         UIImageView *icon = [[UIImageView alloc] initWithImage:[UIImage imageNamed:datasource.image]];
         if(icon)
         {
-            CGFloat imgHeight = image.bounds.size.height;
-            CGFloat imgWidth = image.bounds.size.width;
-            CGFloat imgX = image.frame.origin.x+icon.frame.size.height;
-            CGFloat imgY = image.frame.origin.y + imgHeight/2;
+            CGFloat imgHeight = background.bounds.size.height;
+            CGFloat imgWidth = background.bounds.size.width;
+            CGFloat imgX = background.frame.origin.x+icon.frame.size.height;
+            CGFloat imgY = background.frame.origin.y + imgHeight/2;
             icon.center = CGPointMake(imgX,imgY);
             icon.tag = 10003;
             [cell addSubview:icon];
             
-            CGFloat labX = imgX + icon.bounds.size.width;
-            CGFloat labY = icon.frame.origin.y + icon.frame.size.height/3;
+            CGFloat labX = imgX + icon.bounds.size.width/1.3;
+            CGFloat labY = icon.frame.origin.y;// + icon.frame.size.height/4;
             CGFloat labWidth = imgWidth-icon.frame.size.width;
-            CGFloat labHeight = imgHeight-icon.frame.size.height;
+            CGFloat labHeight = imgHeight-icon.frame.size.height/2;
             
             UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(labX,labY,labWidth, labHeight)];
             if(label)
