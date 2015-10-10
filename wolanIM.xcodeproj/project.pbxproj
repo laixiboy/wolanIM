@@ -23,6 +23,7 @@
 		611FED121B8C4BD8009BC2A1 /* wolanIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611FED111B8C4BD8009BC2A1 /* wolanIMTests.m */; };
 		61BF678C1B8EF5E50061BEF2 /* MyAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF678B1B8EF5E50061BEF2 /* MyAsyncSocket.m */; };
 		61BF67931B902BEB0061BEF2 /* wolanLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF67921B902BEB0061BEF2 /* wolanLogin.m */; };
+		61F87DD71BC8FC0200F7FF58 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F87DD61BC8FC0200F7FF58 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
 		7E0FE5EE1BAABEB500FDC653 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0FE5EB1BAABEB500FDC653 /* home.png */; };
 		7E0FE5EF1BAABEB500FDC653 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0FE5EC1BAABEB500FDC653 /* message.png */; };
 		7E0FE5F01BAABEB500FDC653 /* my.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0FE5ED1BAABEB500FDC653 /* my.png */; };
@@ -63,7 +64,6 @@
 		7E3123E11BBBA68F00C91C29 /* myInfoCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123E01BBBA68F00C91C29 /* myInfoCommonCell.xib */; };
 		7E3123E61BBBB6DC00C91C29 /* Msg_Receive_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123E31BBBB6DC00C91C29 /* Msg_Receive_32.png */; };
 		7E3123E71BBBB6DC00C91C29 /* Msg_Send_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123E41BBBB6DC00C91C29 /* Msg_Send_32.png */; };
-		7E3123EB1BBBBD5700C91C29 /* 20150925112544114.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123EA1BBBBD5700C91C29 /* 20150925112544114.jpg */; };
 		7E3123ED1BBBC22000C91C29 /* pic_plank_sperator.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3123EC1BBBC22000C91C29 /* pic_plank_sperator.png */; };
 		7EC3E8091BAFE19800D9B213 /* Rule in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E8081BAFE19800D9B213 /* Rule */; };
 		7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3E80A1BAFE3CA00D9B213 /* city.plist */; };
@@ -116,6 +116,7 @@
 		61BF678D1B8FFA1E0061BEF2 /* MyAsyncSocketConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncSocketConfig.h; sourceTree = "<group>"; };
 		61BF67911B902BEB0061BEF2 /* wolanLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wolanLogin.h; sourceTree = "<group>"; };
 		61BF67921B902BEB0061BEF2 /* wolanLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wolanLogin.m; sourceTree = "<group>"; };
+		61F87DD61BC8FC0200F7FF58 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7E0FE5EB1BAABEB500FDC653 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		7E0FE5EC1BAABEB500FDC653 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
 		7E0FE5ED1BAABEB500FDC653 /* my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my.png; sourceTree = "<group>"; };
@@ -166,7 +167,6 @@
 		7E3123E01BBBA68F00C91C29 /* myInfoCommonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myInfoCommonCell.xib; sourceTree = "<group>"; };
 		7E3123E31BBBB6DC00C91C29 /* Msg_Receive_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Msg_Receive_32.png; sourceTree = "<group>"; };
 		7E3123E41BBBB6DC00C91C29 /* Msg_Send_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Msg_Send_32.png; sourceTree = "<group>"; };
-		7E3123EA1BBBBD5700C91C29 /* 20150925112544114.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20150925112544114.jpg; sourceTree = "<group>"; };
 		7E3123EC1BBBC22000C91C29 /* pic_plank_sperator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_plank_sperator.png; sourceTree = "<group>"; };
 		7EC3E8061BAFDD1700D9B213 /* wolanDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wolanDataModel.h; sourceTree = "<group>"; };
 		7EC3E8081BAFE19800D9B213 /* Rule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rule; sourceTree = "<group>"; };
@@ -349,8 +349,8 @@
 		61AF792A1B96CEE900971BFD /* image */ = {
 			isa = PBXGroup;
 			children = (
+				61F87DD61BC8FC0200F7FF58 /* Default-568h@2x.png */,
 				7E3123EC1BBBC22000C91C29 /* pic_plank_sperator.png */,
-				7E3123EA1BBBBD5700C91C29 /* 20150925112544114.jpg */,
 				7E3123E31BBBB6DC00C91C29 /* Msg_Receive_32.png */,
 				7E3123E41BBBB6DC00C91C29 /* Msg_Send_32.png */,
 				7E3123D41BBB828700C91C29 /* MyInfo_Answer_32.png */,
@@ -596,6 +596,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = wolan;
 				TargetAttributes = {
+					611FECDF1B8C4BD7009BC2A1 = {
+						DevelopmentTeam = 93HNKL5U22;
+					};
 					611FED031B8C4BD8009BC2A1 = {
 						TestTargetID = 611FECDF1B8C4BD7009BC2A1;
 					};
@@ -640,7 +643,6 @@
 				7E3123A91BB9253B00C91C29 /* man.png in Resources */,
 				7E3123B21BB93E5300C91C29 /* woman.png in Resources */,
 				7E31238D1BB8E65500C91C29 /* pic_plank_down@2x.png in Resources */,
-				7E3123EB1BBBBD5700C91C29 /* 20150925112544114.jpg in Resources */,
 				7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */,
 				7E3123BF1BBA5EF200C91C29 /* msgDetailCell_Snd.xib in Resources */,
 				7E31239D1BB8E79D00C91C29 /* pic_plank_up@2x.png in Resources */,
@@ -664,6 +666,7 @@
 				7E3123ED1BBBC22000C91C29 /* pic_plank_sperator.png in Resources */,
 				7EDF2EDD1BB51CDB002C0E30 /* homeCell.xib in Resources */,
 				7E3123DA1BBB828700C91C29 /* MyInfo_Photo_32.png in Resources */,
+				61F87DD71BC8FC0200F7FF58 /* Default-568h@2x.png in Resources */,
 				7E3123991BB8E79D00C91C29 /* pic_fresh_n@2x 2.png in Resources */,
 				7E3123BB1BB94A3300C91C29 /* pic_plank_down_line.png in Resources */,
 				7EDF2EEF1BB53E87002C0E30 /* pic_fresh_n@2x.png in Resources */,
@@ -863,10 +866,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wolanIM/wolanIM-Prefix.pch";
 				INFOPLIST_FILE = "wolanIM/wolanIM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -877,10 +884,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wolanIM/wolanIM-Prefix.pch";
 				INFOPLIST_FILE = "wolanIM/wolanIM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
