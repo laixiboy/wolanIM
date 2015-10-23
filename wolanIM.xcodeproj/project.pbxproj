@@ -21,6 +21,9 @@
 		611FED081B8C4BD8009BC2A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611FECE71B8C4BD7009BC2A1 /* UIKit.framework */; };
 		611FED101B8C4BD8009BC2A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 611FED0E1B8C4BD8009BC2A1 /* InfoPlist.strings */; };
 		611FED121B8C4BD8009BC2A1 /* wolanIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611FED111B8C4BD8009BC2A1 /* wolanIMTests.m */; };
+		61B9DD2C1BDA3E61004AA6F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9DD291BDA3E61004AA6F3 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		61B9DD2D1BDA3E61004AA6F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9DD2A1BDA3E61004AA6F3 /* Default.png */; settings = {ASSET_TAGS = (); }; };
+		61B9DD2E1BDA3E61004AA6F3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9DD2B1BDA3E61004AA6F3 /* Default@2x.png */; settings = {ASSET_TAGS = (); }; };
 		61BF678C1B8EF5E50061BEF2 /* MyAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF678B1B8EF5E50061BEF2 /* MyAsyncSocket.m */; };
 		61BF67931B902BEB0061BEF2 /* wolanLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF67921B902BEB0061BEF2 /* wolanLogin.m */; };
 		7E0FE5EE1BAABEB500FDC653 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0FE5EB1BAABEB500FDC653 /* home.png */; };
@@ -110,6 +113,9 @@
 		611FED0D1B8C4BD8009BC2A1 /* wolanIMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wolanIMTests-Info.plist"; sourceTree = "<group>"; };
 		611FED0F1B8C4BD8009BC2A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		611FED111B8C4BD8009BC2A1 /* wolanIMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wolanIMTests.m; sourceTree = "<group>"; };
+		61B9DD291BDA3E61004AA6F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		61B9DD2A1BDA3E61004AA6F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		61B9DD2B1BDA3E61004AA6F3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		61BF678A1B8EF5E50061BEF2 /* MyAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncSocket.h; sourceTree = "<group>"; };
 		61BF678B1B8EF5E50061BEF2 /* MyAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAsyncSocket.m; sourceTree = "<group>"; };
 		61BF678D1B8FFA1E0061BEF2 /* MyAsyncSocketConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAsyncSocketConfig.h; sourceTree = "<group>"; };
@@ -347,6 +353,9 @@
 		61AF792A1B96CEE900971BFD /* image */ = {
 			isa = PBXGroup;
 			children = (
+				61B9DD291BDA3E61004AA6F3 /* Default-568h@2x.png */,
+				61B9DD2A1BDA3E61004AA6F3 /* Default.png */,
+				61B9DD2B1BDA3E61004AA6F3 /* Default@2x.png */,
 				7E3123EC1BBBC22000C91C29 /* pic_plank_sperator.png */,
 				7E3123E31BBBB6DC00C91C29 /* Msg_Receive_32.png */,
 				7E3123E41BBBB6DC00C91C29 /* Msg_Send_32.png */,
@@ -631,6 +640,7 @@
 				7EDF2EE61BB52A6F002C0E30 /* pic_background.png in Resources */,
 				7E3123911BB8E6AE00C91C29 /* pic_plank_among@2x.png in Resources */,
 				7E3123AA1BB9253B00C91C29 /* woman.png in Resources */,
+				61B9DD2E1BDA3E61004AA6F3 /* Default@2x.png in Resources */,
 				7E3123D91BBB828700C91C29 /* MyInfo_Answer_32.png in Resources */,
 				7E0FE5EE1BAABEB500FDC653 /* home.png in Resources */,
 				7E3123B41BB9426B00C91C29 /* msgCell.xib in Resources */,
@@ -638,6 +648,7 @@
 				7E3123E11BBBA68F00C91C29 /* myInfoCommonCell.xib in Resources */,
 				7E0FE5EF1BAABEB500FDC653 /* message.png in Resources */,
 				7E3123A91BB9253B00C91C29 /* man.png in Resources */,
+				61B9DD2D1BDA3E61004AA6F3 /* Default.png in Resources */,
 				7E3123B21BB93E5300C91C29 /* woman.png in Resources */,
 				7E31238D1BB8E65500C91C29 /* pic_plank_down@2x.png in Resources */,
 				7EC3E80B1BAFE3CA00D9B213 /* city.plist in Resources */,
@@ -663,6 +674,7 @@
 				7E3123ED1BBBC22000C91C29 /* pic_plank_sperator.png in Resources */,
 				7EDF2EDD1BB51CDB002C0E30 /* homeCell.xib in Resources */,
 				7E3123DA1BBB828700C91C29 /* MyInfo_Photo_32.png in Resources */,
+				61B9DD2C1BDA3E61004AA6F3 /* Default-568h@2x.png in Resources */,
 				7E3123991BB8E79D00C91C29 /* pic_fresh_n@2x 2.png in Resources */,
 				7E3123BB1BB94A3300C91C29 /* pic_plank_down_line.png in Resources */,
 				7EDF2EEF1BB53E87002C0E30 /* pic_fresh_n@2x.png in Resources */,
